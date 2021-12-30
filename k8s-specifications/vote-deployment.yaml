@@ -16,7 +16,7 @@ spec:
         app: vote
     spec:
       containers:
-      - image: ghcr.io/bretfisher/example-voting-app-vote:latest
+      - image: ghcr.io/bretfisher/example-voting-app-vote:gha-1638605337
         name: vote
         ports:
         - containerPort: 80

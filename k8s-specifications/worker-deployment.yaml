@@ -16,5 +16,5 @@ spec:
         app: worker
     spec:
       containers:
-      - image: ghcr.io/bretfisher/example-voting-app-worker:latest
+      - image: ghcr.io/bretfisher/example-voting-app-worker:gha-1638605338
         name: worker
